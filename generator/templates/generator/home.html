@@ -1,0 +1,52 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<div class="container bg-light mt-5 pt-3 pb-3">
+    <div class="text-center">
+        <h1>Django Password Generator</h1>
+        <p>This is a simple password generator app project build using Python Django framework 3.2!</p>
+    </div>
+
+    <form action="password">
+    <div class="form-text text-center">We'll never share or store generated password.</div>
+        <div class="my-3 pt-5">
+            <label class="form-label">Chose password length</label>
+            <select class="form-select" aria-label="Default select example" name="length">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12" selected>12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="18">18</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+            </select>
+
+            <div class="form-check form-switch my-3">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" name="uppercase">
+                <label class="form-check-label" for="flexSwitchCheckDefault" >Uppercase</label>
+            </div>
+
+            <div class="form-check form-switch my-3">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" name="numbers">
+                <label class="form-check-label" for="flexSwitchCheckDefault" >Numbers</label>
+            </div>
+
+            <div class="form-check form-switch my-3">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" name="special">
+                <label class="form-check-label" for="flexSwitchCheckDefault" >Special Character</label>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" value="generate Password" class="btn btn-primary">
+            </div>
+        </div>
+    </form>
+
+    <p class="text-center pt-5">Designed by <a href="https://www.rifatjamee.com/">Rifat</a></p>
+</div>
