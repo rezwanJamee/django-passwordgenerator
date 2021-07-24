@@ -1,5 +1,5 @@
 # Django Password Generator
-### It only randomly generate passwords based on the user input on uppercase, numbers and special character requirements.
+It only randomly generate passwords based on the user input on uppercase, numbers and special character requirements.
 
 <br/>
 
