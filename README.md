@@ -14,4 +14,4 @@ It only randomly generate passwords based on the user input on uppercase, number
 
 
 ### Tools used in the project:
-Python 3 and Django 3.2 framework.
+HTML, Bootstrap, Python 3 and Django 3.2 framework.
